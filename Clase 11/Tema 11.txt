@@ -1,0 +1,13 @@
+let x = Number(prompt("Ingrese Idioma: 1. español 2. ingles 3. aleman:"))
+
+switch(x){
+    case 1:
+        console.log("Hola")
+        break;
+    case 2:
+        console.log("hello")
+        break;
+    case 3:
+        console.log("Hallo")
+        break;
+}

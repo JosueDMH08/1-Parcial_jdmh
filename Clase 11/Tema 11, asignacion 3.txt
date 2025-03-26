@@ -1,0 +1,6 @@
+let edad =prompt("ingrese la edad: ");
+let anios= 18-edad
+if (edad >=18)
+    console.log("Puede ejercer el voto")
+else
+    console.log("Es menor de edad le falta,"+anios+" años")

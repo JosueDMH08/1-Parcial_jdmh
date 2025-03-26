@@ -1,0 +1,11 @@
+let mes = prompt("Ingrese el mes: ")
+
+if (mes=="enero" || mes =="febrero" || mes=="marzo")
+   console.log("Estamos en primavera")
+else if(mes =="abril" || mes =="mayo" || mes =="junio")
+    console.log("Estamos en verano")
+else if(mes =="julio" || mes =="agosto" || mes
+    =="septiembre")
+    console.log("Estamos en Otonoño")
+else
+    console.log("Estamos en Invierno")

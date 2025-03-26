@@ -1,0 +1,12 @@
+console.log(cadena.slice(-3));
+console.log("Este es un split:"+cadena.split(" "));
+let s = cadena.split(" ");
+console.log("El valor del indice de la s[0]:"+s[0]);
+console.log("El valor del indice de la s[1]:"+s[1]);
+console.log("El valor del indice de la s[1][2]:"+s[1][2]);
+s = "         Hola Mundo            ";
+console.log(s.trim());
+console.log(cadena.startsWith("H"));
+console.log(cadena.endsWith("o"));
+console.log/(cadena.includes("a"));
+console.log(cadena.repeat(3));   

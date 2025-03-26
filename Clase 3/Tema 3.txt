@@ -1,0 +1,16 @@
+Horas = prompt("Horas trabajadas por semana: ");
+pago = prompt("Pago x Hora: ");
+salarioS = Horas *pago;
+salarioM = Horas *pago*4;
+dedRap = salarioS*0.015;
+dedRapM = salarioS*0.015*4;
+dedSinS = salarioS*0.01;
+dedSinM = salarioS*0.01*4;
+console.log("sueldo bruto Semanal: L"+salarioS);
+console.log("suelto bruto Mensual: l"+salarioM);
+console.log("Deduccion RAP-FOSOVI 1.5% Semanal: L"+dedRap);
+console.log("Deduccion Rao-FOSOVI 1.5% Mensual: L"+dedRapM);
+console.log("Deduccion sindicatos 1% Semanal: L"+dedSinS);
+console.log("Deduccion sindicatos 1% Mensual: L"+dedSinM);
+console.log("Salario Neto Semanal: L"+(salarioS-dedRap-dedSinS));
+console.log("Salario Neto Mensual: L"+(salarioM-dedRapM-dedSinM));

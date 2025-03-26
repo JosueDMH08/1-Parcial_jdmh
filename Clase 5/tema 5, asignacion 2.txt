@@ -1,0 +1,6 @@
+let V = prompt("ingrese el valor del volumen: ");
+
+
+let presion = (1000*Math.pow(V,-1.4));
+//Potencia 5´2 = Math (5,2)
+console.log("El valor de la presion es: "+presion);
