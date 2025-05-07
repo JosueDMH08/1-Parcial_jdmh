@@ -1,4 +1,4 @@
-let depositoP = prompt("ingrese el deposito: L. ");
+ p let depositoP = prompt("ingrese el deposito: L. ");
 let interes = prompt("ingrese el interes: ")
 interes/=100
 let anio =prompt("ingrese los años a calcular: ")
